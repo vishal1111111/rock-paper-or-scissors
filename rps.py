@@ -13,7 +13,7 @@ a total score. Each win is worth +1 points, each loss is worth -1
 """
 import random
 
-N_GAMES = 4
+N_GAMES = 3
 
 def main():
     print_welcome()
@@ -46,7 +46,7 @@ def calc_outcome_score(outcome):
 
 def decide_outcome(ai_move, human_move):
    
-    # if the two moves are the same, it is a tiee
+    # if the two moves are the same, it is a tie
     if ai_move == human_move:
         return 'tie'
     if ai_move == 'rock':
