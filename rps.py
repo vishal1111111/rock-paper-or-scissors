@@ -13,7 +13,7 @@ a total score. Each win is worth +1 points, each loss is worth -1
 """
 import random
 
-N_GAMES = 3
+N_GAMES = 4
 
 def main():
     print_welcome()
